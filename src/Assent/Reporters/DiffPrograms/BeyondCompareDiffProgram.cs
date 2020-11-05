@@ -22,6 +22,7 @@ namespace Assent.Reporters.DiffPrograms
             }
             else
             {
+                paths.Add("/usr/local/bin/bcompare");
                 paths.Add("/usr/bin/bcompare");
             }
             DefaultSearchPaths = paths;
